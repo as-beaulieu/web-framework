@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func console(output string) {
-	fmt.Println(output)
+func console(a ...interface{}) {
+	fmt.Println(a)
 }
